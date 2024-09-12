@@ -44,6 +44,7 @@ This document tracks all the validation and convention rules enforced by Djangol
 | CDQ11 | DJANGO_FIELD_CONVENTIONS | Django fields should follow specific conventions. | - |
 | CDQ12 | COMMENT_VALIDATION | Processes and validates leading comments. | - |
 | CDQ13 | CELERY_TASK_VALIDATION | Performs checks related to Celery tasks. | - |
+| CDQ14 | REDUNDANT_QUERY_METHODS | Identifies redundant QuerySet method chains, such as `all().filter()` or `filter().all()`. These chains are unnecessary because the final method in the chain provides the desired result. Simplified queries avoid redundant operations, resulting in cleaner and easier-to-maintain code. | Refer to Django's [QuerySet API documentation](https://docs.djangoproject.com/en/stable/ref/models/querysets/) for more information. |
 
 ## Style-related Rules (STY)
 
