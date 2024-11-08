@@ -54,9 +54,3 @@ This document tracks all the validation and convention rules enforced by Djangol
 | [STY02](#STY02) | BOOLEAN_VARIABLE_POSITIVE_NAMING | Boolean variables should use positive naming (avoid negative patterns). | - |
 | [STY03](#STY03) | BOOLEAN_PROPERTY_PREFIX | Boolean object properties should use required prefixes. | Prefixes are configurable in settings |
 | [STY04](#STY04) | BOOLEAN_PROPERTY_POSITIVE_NAMING | Boolean object properties should use positive naming (avoid negative patterns). | - |
-
-## Configuration-related Rules (CFG)
-
-| Rule Code | Rule Name | Description | Additional Info |
-| --- | --- | --- | --- |
-| [CFG01](#CFG01) | RESERVED_SYMBOL_HANDLING | Skips validation for symbols marked as reserved. | - |
